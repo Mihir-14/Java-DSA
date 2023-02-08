@@ -12,6 +12,6 @@ public class Numbers {
         }
         System.out.println(n);
         print1(n+1);
-//        If we call the function again and again you can treat it as separate call in the stack 
+//        If we call the function again and again you can treat it as separate call in the stack
     }
 }

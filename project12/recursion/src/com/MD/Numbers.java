@@ -7,11 +7,11 @@ public class Numbers {
         print1(1);
     }
     static void print1(int n){
-        if(n == 5){
+        if(n == 10){
             return;
         }
         System.out.println(n);
-        print1(n+1);
+        print1(n+1); // This is called Tail recursion since it is the last function call
 //        If we call the function again and again you can treat it as separate call in the stack
     }
 }

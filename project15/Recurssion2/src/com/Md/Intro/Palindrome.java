@@ -1,4 +1,4 @@
-package com.Md;
+package com.Md.Intro;
 
 public class Palindrome {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.Md;
+package com.Md.Intro;
 
 public class Reverse {
     public static void main(String[] args) {

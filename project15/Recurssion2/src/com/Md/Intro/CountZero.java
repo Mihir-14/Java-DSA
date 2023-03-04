@@ -1,4 +1,4 @@
-package com.Md;
+package com.Md.Intro;
 //Special example to return same value to above function call
 public class CountZero {
     public static void main(String[] args) {

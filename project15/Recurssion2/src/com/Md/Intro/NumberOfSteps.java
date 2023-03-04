@@ -1,4 +1,4 @@
-package com.Md;
+package com.Md.Intro;
 //1342 LC
 public class NumberOfSteps {
     public static void main(String[] args) {

@@ -10,6 +10,8 @@ public class Main {
         System.out.println(std1.rollno);
         System.out.println(std1.Name);
         System.out.println(std1.marks);
+//        Student random = new Student(Mihir);
+
     }
 
     static class Student{
@@ -25,6 +27,18 @@ public class Main {
             this.Name = "Mihir";
             this.marks = 85;
         }
+        Student (Student other){
+//            this.Name = other.Name;
+//            this.rollno = other.rollno;
+//            this.marks = other.marks;
+
+//            this is how you call a constructor from another constructor
+//            internally:new Student(111,"Person" , 99.999f)
+            this(111,"Person" , 99.999f);
+        }
+//        Student Mihir = new Student(69 , "Dudhatra" , 88.99f);
+//        here,this will be replaced with Mihir
+//        Constructor overloading
         Student (int rono , String name , float mark){
             this.rollno = rono;
             this.Name = name;

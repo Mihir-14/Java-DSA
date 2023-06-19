@@ -1,4 +1,4 @@
-package com.md.intro;
+package com.md;
 
 public class WrapperExample {
     public void main(String[] args) {
